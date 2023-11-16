@@ -1,11 +1,10 @@
-import React from 'react'
-
-const Greet = () => {
+type GreetProps = {
+    name? : string
+}
+const Greet = (props: GreetProps) => {
   return (
-    <div>
-      Hello World
-    </div>
+   <div>Hello World {props.name}</div>
   )
 }
 
-export default Greet
+export default Greet;
