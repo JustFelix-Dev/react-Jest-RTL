@@ -6,5 +6,14 @@ describe('Application',()=>{
     render(<Application/>)
     const nameElement = screen.getByRole('textbox')
     expect(nameElement).toBeInTheDocument()
+
+    const joblocationElement = screen.getByRole('combobox')
+    expect(joblocationElement).toBeInTheDocument()
+  
+    const termsElement = screen.getByRole('checkbox')
+    expect(termsElement).toBeInTheDocument()
+  
+    const buttonElement = screen.getByRole('button')
+    expect(buttonElement).toBeInTheDocument()
   })
 })
