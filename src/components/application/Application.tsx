@@ -5,10 +5,12 @@ const Application = () => {
       <>
       <h1>Welcome to React-Testing</h1>
       <h2>Section 1</h2>
+      <p>All Fields are Mandatory</p>
+      <img src="/public/logo512.png" alt="Alternate text" />
      <form>
         <div>
             <label htmlFor="name">Name</label>
-            <input type="text" id='name' />
+            <input type="text" id='name'placeholder='FullName' value='Felix' />
             <label htmlFor="bio">Bio</label>
             <input type="text" id='bio' />
         </div>
