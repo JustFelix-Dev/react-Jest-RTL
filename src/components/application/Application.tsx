@@ -6,11 +6,13 @@ const Application = () => {
       <h1>Welcome to React-Testing</h1>
       <h2>Section 1</h2>
       <p>All Fields are Mandatory</p>
+      <span title='close'>X</span>
+      <div data-testid='custom-element'>Custom Element</div>
       <img src="/public/logo512.png" alt="Alternate text" />
      <form>
         <div>
             <label htmlFor="name">Name</label>
-            <input type="text" id='name'placeholder='FullName' value='Felix' />
+            <input type="text" id='name'placeholder='FullName' value='Felix' onChange={()=>{}} />
             <label htmlFor="bio">Bio</label>
             <input type="text" id='bio' />
         </div>
