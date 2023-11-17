@@ -17,7 +17,7 @@ export const Skills = ( props: SkillsProps)=>{
         isLoggedIn ? (
             <button>Start Learning</button>
         ) :(
-            <button onClick={()=>setIsLoggedIn(true)}>Log In</button>
+            <button onClick={()=>setIsLoggedIn(true)}>LogIn</button>
         )
       }
     </>
